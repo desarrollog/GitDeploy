@@ -38,6 +38,7 @@ git config receive.denyCurrentBranch ignore
 if [ ! -f $hook ];
 then
 	touch $hook;
+	sudo chmod u+x $hook;
 	echo "#!/bin/sh" > $hook;
 	adjusted=1;
 fi
