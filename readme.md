@@ -16,6 +16,10 @@ If you have a number of sites it might be easier to add an alias to the script.
 
 	echo 'alias cake_deploy="/path/to/deploy.sh"' >> ~/.bashrc
 
+You will need to reload the `.bashrc` file before it can be used.
+
+	. ~/.bashrc
+
 ### Usage
 
 #### Basic
